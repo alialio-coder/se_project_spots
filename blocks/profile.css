@@ -25,6 +25,11 @@
   font-weight: 500;
   line-height: 1;
   color: #212121;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .profile__description {
@@ -34,6 +39,11 @@
   line-height: 100%;
   letter-spacing: 0;
   color: #212121b3;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 .profile__edit-btn {
