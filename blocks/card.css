@@ -18,10 +18,6 @@
   opacity: 40%;
 }
 
-.card__like-btn:hover {
-  cursor: pointer;
-}
-
 .card__content {
   display: flex;
   align-items: center;
