@@ -11,10 +11,16 @@
   border-radius: 5px;
 }
 
+.profile__avatar:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  opacity: 0.8;
+}
+
 .profile__column {
   display: flex;
   flex-direction: column;
-  font-family: poppins;
+  font-family: Poppins;
   width: 420px;
   height: 190px;
 }
@@ -71,7 +77,7 @@
   border: none;
   background-color: #212121;
   color: #fff;
-  font-family: poppins;
+  font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
